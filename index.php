@@ -123,7 +123,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
                                 <?php
                                     $downloadUrl = 'download.php?id=' . $videoId . '&itag=' . $downloadInfoItem['youtubeItag'];
                                 ?>
-                                <a href="<?= $downloadUrl ?>" target="_blank" class="btn btn-success"><span class="glyphicon glyphicon-circle-arrow-down"></span>Download</a>
+                                <a href="<?= $downloadUrl ?>" target="_blank" class="btn btn-success"><span class="glyphicon glyphicon-circle-arrow-down"></span> Download</a>
                             </td>
                         </tr>
                     <?php endforeach; ?>
